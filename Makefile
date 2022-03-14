@@ -30,4 +30,5 @@ dataset-validate: ## Valida dataset e todos os seus recursos
 dataset-create: ## Cria dataset e todos os seus recursos em instância do CKAN
 	@dpckan dataset create
 
-
+dataset-create-homologa:
+	@dpckan --ckan-host ${HOMOLOGA_HOST} --ckan-key ${HOMOLOGA_KEY} dataset create

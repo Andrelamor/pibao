@@ -1,28 +1,41 @@
 {
   "profile": "tabular-data-package",
   "resources": [
-    {
-      "name": "letters",
-      "path": "data/letters.csv",
+{
+      "path": "data/2021-3-serie-encadeada.csv",
+      "name": "2021-3-serie-encadeada",
+      "title": "Série Encadeada",
       "profile": "tabular-data-resource",
-      "schema": "schemas/schema_v1.json",
-      "dialect": "schemas/dialetic_v1.json",
-      "title": "letters",
+      "scheme": "file",
       "format": "csv",
-      "encoding": "UTF-8",
-      "description": "Este arquivo apresenta todas as letras do alfabeto portugês"
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": "schemas/schema_serie_v1.json",
+      "dialect": "schemas/dialect_v1.json"
+    },
+    {
+      "path": "data/2021-3-valores-correntes.csv",
+      "name": "2021-3-valores-correntes",
+      "title": "Valores Correntes",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8-sig",
+      "schema": "schemas/schema_valores_v1.json",
+      "dialect": "schemas/dialect_v1.json"
     }
   ],
   "keywords": [
-    "letters",
-    "portugues grammar"
+    "pib",
+    "economia"
   ],
-  "name": "dataset-template",
+  "name": "pib-teste",
   "title": "Conjunto de dados template",
   "description": "Este conjunto é capaz de informar se determinada letra é uma vogal ou não",
   "homepage": "https://github.com/fjuniorr",
   "version": "0.0.1",
-  "owner_org": "controladoria-geral-do-estado-cge",
+  "owner_org": "fundacao-joao-pinheiro-fjp",
   "contributors": [
     {
       "title": "Gabriel Braico Dornas",

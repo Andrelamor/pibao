@@ -1,0 +1,82 @@
+{
+  "fields": [
+    {
+      "type": "integer",
+      "name": "ANO"
+    },
+    {
+      "type": "integer",
+      "name": "TRIMESTRE"
+    },
+    {
+      "type": "number",
+      "name": "AGROPECUARIA_TOTAL",
+      "decimalChar":","
+    },
+    {
+      "type": "number",
+      "name": "EXTR_MINERAL",
+      "decimalChar":","
+    },
+    {
+      "type": "number",
+      "name": "TRANSFORMACAO",
+      "decimalChar":","
+    },
+    {
+      "type": "number",
+      "name": "ENERGIA_SANEAMENTO",
+      "decimalChar":","
+    },
+    {
+      "type": "number",
+      "name": "CONSTRUCAO_CIVIL",
+      "decimalChar":","
+    },
+    {
+      "type": "number",
+      "name": "INDUSTRIA_TOTAL",
+      "decimalChar":","
+    },
+    {
+      "type": "number",
+      "name": "COMERCIO",
+      "decimalChar":","
+    },
+    {
+      "type": "number",
+      "name": "TRANSPORTE",
+      "decimalChar":","
+    },
+    {
+      "type": "number",
+      "name": "OUTROS",
+      "decimalChar":","
+    },
+    {
+      "type": "number",
+      "name": "ADMINISTRACAO_PUBLICA",
+      "decimalChar":","
+    },
+    {
+      "type": "number",
+      "name": "SERVICOS_TOTAL",
+      "decimalChar":","
+    },
+    {
+      "type": "number",
+      "name": "VA",
+      "decimalChar":","
+    },
+    {
+      "type": "number",
+      "name": "IMPOSTOS",
+      "decimalChar":","
+    },
+    {
+      "type": "number",
+      "name": "PIB",
+      "decimalChar":","
+    }
+  ]
+}

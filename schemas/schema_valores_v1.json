@@ -1,0 +1,33 @@
+{
+  "fields": [
+    {
+      "type": "integer",
+      "name": "ANO"
+    },
+    {
+      "type": "integer",
+      "name": "TRIMESTRE"
+    },
+    {
+      "type": "number",
+      "name": "AGROPECUARIA"
+    },
+    {
+      "type": "number",
+      "name": "INDUSTRIA"
+    },
+    {
+      "type": "number",
+      "name": "SERVICOS"
+    },
+    {
+      "type": "number",
+      "name": "VA"
+    },
+    {
+      "type": "number",
+      "name": "PIB"
+    }
+  ]
+}
+
