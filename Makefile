@@ -32,3 +32,9 @@ dataset-create: ## Cria dataset e todos os seus recursos em instância do CKAN
 
 dataset-create-homologa:
 	@dpckan --ckan-host ${HOMOLOGA_HOST} --ckan-key ${HOMOLOGA_KEY} dataset create
+
+dataset-update:
+	@dpckan dataset update
+
+dataset-update-homologa:
+	@dpckan --ckan-host ${HOMOLOGA_HOST} --ckan-key ${HOMOLOGA_KEY} dataset update
